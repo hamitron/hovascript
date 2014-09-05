@@ -1,0 +1,10 @@
+<div class="container">
+
+<%= form_for @entry  do |f| %>
+<p><%= f.text_field :name, placeholder: "name", size: 40 %></p>
+<p><%= f.text_field :body, placeholder: "content", size: 100 %></p>
+<% f.hidden_field :user_id %>
+<%= f.submit %>
+<% end %>
+
+</div>

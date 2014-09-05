@@ -1,0 +1,15 @@
+<div class="container">
+<div class="col-md-12">
+<% @entries.each do |entry| %>
+
+<pre> 
+<strong><%= entry.name %> - <%= entry.created_at.strftime("%m.%d.%Y") %></strong>
+<p>------------------------------------------------------------<p>
+<%= entry.body %>
+</pre>
+
+
+<% end %>
+
+</div>
+</div>
