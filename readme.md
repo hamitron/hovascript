@@ -37,7 +37,10 @@
 
 * Regex usage
 
-#### 2 points
+##### 2 points
 * DOM output
 
 * Error message is part of the output
+
+### Contributors:
+@hamitron
