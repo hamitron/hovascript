@@ -43,4 +43,5 @@
 * Error message is part of the output
 
 ### Contributors:
-@hamitron
+[@hamitron](https://www.github.com/hamitron)
+[@rafaelcastrocouto](https://github.com/rafaelcastrocouto)
